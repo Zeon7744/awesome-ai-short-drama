@@ -1,4 +1,5 @@
 # 🎬 Awesome AI Short Drama [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![爱发电](https://img.shields.io/badge/爱发电-支持作者-946ce6?style=flat-square)](https://afdian.com/a/zeon7744)
 
 > AI 短剧 / AI 微短剧 / AI 漫剧 全链路工具、模型、提示词、工作流与学习资源精选清单。
 
@@ -269,3 +270,15 @@ CC0-1.0 License - 自由使用，无需署名。
 ---
 
 > ⚠️ 本清单仅做工具和资源收录，不构成任何投资或商业建议。使用 AI 工具时请遵守各平台服务条款及当地法律法规。
+
+---
+
+## ☕ 支持作者
+
+如果这个清单和原创剧本对你有帮助，欢迎请作者喝杯咖啡 ☕
+
+你的每一份支持，都会变成持续更新的动力 🚀
+
+👉 [**爱发电 · 支持白落凡**](https://afdian.com/a/zeon7744)
+
+> 微信/支付宝均可，无需注册
