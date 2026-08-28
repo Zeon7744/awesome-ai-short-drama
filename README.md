@@ -1,7 +1,6 @@
 # 🎬 Awesome AI Short Drama [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![爱发电](https://img.shields.io/badge/爱发电-国内赞助-946ce6?style=flat-square)](https://ifdian.net/a/Zeon7744)
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?style=flat-square&logo=githubsponsors)](https://github.com/sponsors/Zeon7744)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-海外支持-ffdd00?style=flat-square&logo=buymeacoffee)](https://buymeacoffee.com/zeon7744)
 
 > AI 短剧 / AI 微短剧 / AI 漫剧 全链路工具、模型、提示词、工作流与学习资源精选清单。
 
@@ -277,23 +276,14 @@ CC0-1.0 License - 自由使用，无需署名。
 
 ## ☕ 支持作者
 
-如果这个清单和原创剧本对你有帮助，欢迎请作者喝杯咖啡 ☕
+如果这个清单和原创剧本对你有帮助，欢迎爱发电支持 ☕
 你的每一份支持，都会变成持续更新的动力 🚀
-
-### 🇨🇳 国内渠道
 
 | 渠道 | 方式 | 链接 |
 |------|------|------|
 | **爱发电** | 月度订阅 / 一次性打赏，微信支付宝均可 | [ifdian.net/a/Zeon7744](https://ifdian.net/a/Zeon7744) |
 
-### 🌍 海外渠道
-
-| 渠道 | 方式 | 链接 |
-|------|------|------|
-| **GitHub Sponsors** | 月度赞助，走GitHub账单 | [github.com/sponsors/Zeon7744](https://github.com/sponsors/Zeon7744) |
-| **Buy Me a Coffee** | 一次性 / 月度，信用卡/PayPal | [buymeacoffee.com/zeon7744](https://buymeacoffee.com/zeon7744) |
-
-> 哪个方便用哪个，金额随意，感谢支持 🙏
+> 金额随意，感谢支持 🙏
 
 
 
