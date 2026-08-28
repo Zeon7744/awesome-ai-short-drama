@@ -301,5 +301,5 @@ CC0-1.0 License - 自由使用，无需署名。
 <div align="center">
 <img src="docs/wechat-pay.jpg" width="200" alt="微信收款码" />
 <br/>
-<sub>足够卑微(**华) · 微信扫码 · 随心意</sub>
+<sub>微信扫码 · 随心打赏</sub>
 </div>
