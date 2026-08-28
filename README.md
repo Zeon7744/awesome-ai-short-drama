@@ -285,7 +285,7 @@ CC0-1.0 License - 自由使用，无需署名。
 | 渠道 | 方式 | 链接 |
 |------|------|------|
 | **爱发电** | 月度订阅 / 一次性打赏，微信支付宝均可 | [afdian.com/a/zeon7744](https://afdian.com/a/zeon7744) |
-| **微信赞赏** | 微信扫码，随心意 | *(收款码待补充)* |
+| **微信赞赏** | 微信扫码，随心意 | 见下方二维码 |
 
 ### 🌍 海外渠道
 
@@ -295,3 +295,11 @@ CC0-1.0 License - 自由使用，无需署名。
 | **Buy Me a Coffee** | 一次性 / 月度，信用卡/PayPal | [buymeacoffee.com/zeon7744](https://buymeacoffee.com/zeon7744) |
 
 > 哪个方便用哪个，金额随意，感谢支持 🙏
+
+### 📱 微信扫码打赏
+
+<div align="center">
+<img src="docs/wechat-pay.jpg" width="200" alt="微信收款码" />
+<br/>
+<sub>足够卑微(**华) · 微信扫码 · 随心意</sub>
+</div>
