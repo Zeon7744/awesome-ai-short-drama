@@ -1,0 +1,108 @@
+name: 更新爱发电赞助者名单
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # 每天北京时间 09:00 运行
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-sponsors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch Afdian Sponsors
+        id: fetch
+        env:
+          AFDIAN_USER_ID: "0c59dda8a1bb11f19b9552540025c377"
+          AFDIAN_TOKEN: "WTcfMbUpkvFdACswPruY3ySxG87KJ45e"
+        run: |
+          # 计算签名
+          TS=$(date +%s)
+          PARAMS='{"page":1}'
+          SIGN=$(echo -n "${AFDIAN_TOKEN}${PARAMS}${TS}${AFDIAN_USER_ID}" | md5sum | cut -d' ' -f1)
+          
+          # 调用 API
+          RESPONSE=$(curl -s -X POST "https://afdian.net/api/open/query-sponsor" \
+            -H "Content-Type: application/json" \
+            -d "{\"user_id\": \"${AFDIAN_USER_ID}\", \"params\": \"${PARAMS}\", \"ts\": ${TS}, \"sign\": \"${SIGN}\"}")
+          
+          # 提取赞助者数据
+          echo "$RESPONSE"
+          echo "$RESPONSE" > /tmp/afdian_data.json
+          
+          # 解析出赞助者信息
+          python3 << 'PYEOF'
+import json
+import sys
+
+try:
+    with open('/tmp/afdian_data.json', 'r') as f:
+        data = json.load(f)
+    
+    if data.get('ec') != 200:
+        print("API Error:", data.get('em', 'Unknown'))
+        sys.exit(1)
+    
+    sponsors = data['data']['list']
+    lines = []
+    for s in sponsors:
+        user = s.get('user', {})
+        name = user.get('name', '匿名')
+        avatar = user.get('avatar', '')
+        amount = s.get('total_amount', 0)
+        lines.append(f"- [{name}](https://afdian.net/u/{user.get('user_id', '')}) - ￥{amount:.2f}")
+    
+    result = '\n'.join(lines[:20])  # 最多展示20个
+    print(result)
+    with open('/tmp/sponsors_list.md', 'w') as f:
+        f.write(result)
+except Exception as e:
+    print(f"Error: {e}")
+    sys.exit(1)
+PYEOF
+
+      - name: Update README
+        run: |
+          # 读取赞助者列表
+          SPONSORS=$(cat /tmp/sponsors_list.md 2>/dev/null || echo "暂无赞助者")
+          
+          # 更新 README
+          python3 << PYEOF
+import re
+
+readme_path = "README.md"
+with open(readme_path, 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# 替换赞助者名单区块
+sponsor_section = f"""## 🙏 感谢赞助
+
+以下是对此项目/创作给予支持的赞助者们：
+
+{SPONSORS}
+
+---
+"""
+
+# 检查是否已有赞助者区块，如果有则替换，否则添加到文末
+if '## 🙏 感谢赞助' in content:
+    # 替换现有区块
+    pattern = r'## 🙏 感谢赞助\s*\n.*?(?=\n## |\Z)'
+    content = re.sub(pattern, sponsor_section + '\n', content, flags=re.DOTALL)
+else:
+    # 在文末添加
+    content = content.rstrip() + '\n\n' + sponsor_section
+
+with open(readme_path, 'w', encoding='utf-8') as f:
+    f.write(content)
+PYEOF
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "自动更新爱发电赞助者名单" || echo "No changes to commit"
+          git push
