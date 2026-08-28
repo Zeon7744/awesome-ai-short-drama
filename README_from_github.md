@@ -1,5 +1,5 @@
 # 🎬 Awesome AI Short Drama [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![爱发电](https://img.shields.io/badge/爱发电-国内赞助-946ce6?style=flat-square)](https://ifdian.net/a/Zeon7744)
+[![爱发电](https://img.shields.io/badge/爱发电-国内赞助-946ce6?style=flat-square)](https://afdian.com/a/zeon7744)
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?style=flat-square&logo=githubsponsors)](https://github.com/sponsors/Zeon7744)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-海外支持-ffdd00?style=flat-square&logo=buymeacoffee)](https://buymeacoffee.com/zeon7744)
 
@@ -284,7 +284,7 @@ CC0-1.0 License - 自由使用，无需署名。
 
 | 渠道 | 方式 | 链接 |
 |------|------|------|
-| **爱发电** | 月度订阅 / 一次性打赏，微信支付宝均可 | [ifdian.net/a/Zeon7744](https://ifdian.net/a/Zeon7744) |
+| **爱发电** | 月度订阅 / 一次性打赏，微信支付宝均可 | [afdian.com/a/zeon7744](https://afdian.com/a/zeon7744) |
 | **微信赞赏** | 微信扫码，随心意 | 见下方二维码 |
 
 ### 🌍 海外渠道
