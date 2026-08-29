@@ -29,21 +29,17 @@ jobs:
       - name: Update README
         run: |
           SPONSORS=$(cat /tmp/sponsors.txt 2>/dev/null || echo "暂无赞助者")
-          python3 << 'PYEOF'
-import re
-content = open("README.md", encoding="utf-8").read()
-import os
-sponsors = open("/tmp/sponsors.txt", encoding="utf-8").read().strip() if os.path.exists("/tmp/sponsors.txt") else ""
-if not sponsors:
-    sponsors = "暂无赞助者"
-section = f"## 🙏 感谢赞助\n\n{sponsors}\n\n---\n"
-pattern = r"## 🙏 感谢赞助\s*\n.*?(?=\n## |\Z)"
-if "## 🙏 感谢赞助" in content:
-    content = re.sub(pattern, section + "\n", content, flags=re.DOTALL)
-else:
-    content = content.rstrip() + "\n\n" + section
-open("README.md", "w", encoding="utf-8").write(content)
-PYEOF
+          python3 -c "
+import re,os
+c=open('README.md',encoding='utf-8').read()
+s=open('/tmp/sponsors.txt',encoding='utf-8').read().strip() if os.path.exists('/tmp/sponsors.txt') else ''
+if not s: s='暂无赞助者'
+sec=f'## 感谢赞助\n\n{s}\n\n---\n'
+p=r'## 感谢赞助\s*\n.*?(?=\n## |\Z)'
+if '## 感谢赞助' in c: c=re.sub(p,sec+'\n',c,flags=re.DOTALL)
+else: c=c.rstrip()+'\n\n'+sec
+open('README.md','w',encoding='utf-8').write(c)
+"
 
       - name: Commit and Push
         run: |
