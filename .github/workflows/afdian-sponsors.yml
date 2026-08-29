@@ -19,7 +19,6 @@ jobs:
           TS=$(date +%s)
           PARAMS='{"page":1}'
           SIGN=$(echo -n "${AFDIAN_TOKEN}${PARAMS}${TS}${AFDIAN_USER_ID}" | md5sum | cut -d' ' -f1)
-          
           curl -s -X POST "https://afdian.net/api/open/query-sponsor" \
             -H "Content-Type: application/json" \
             -d "{\"user_id\": \"${AFDIAN_USER_ID}\", \"params\": \"${PARAMS}\", \"ts\": ${TS}, \"sign\": \"${SIGN}\"}" \
@@ -29,12 +28,12 @@ jobs:
 
       - name: Update README
         run: |
-          SPONSORS=$(cat /tmp/sponsors.txt 2>/dev/null || echo "暂无赞助者")
-          python3 -c "
-import re
+          python3 - << 'PYEOF'
+import re, os
 content = open('README.md', encoding='utf-8').read()
-sponsors = open('/tmp/sponsors.txt', encoding='utf-8').read().strip() if __import__('os').path.exists('/tmp/sponsors.txt') else '暂无赞助者'
-if not sponsors: sponsors = '暂无赞助者'
+sponsors = open('/tmp/sponsors.txt', encoding='utf-8').read().strip() if os.path.exists('/tmp/sponsors.txt') else ''
+if not sponsors:
+    sponsors = '暂无赞助者'
 section = f'## 🙏 感谢赞助\n\n{sponsors}\n\n---\n'
 pattern = r'## 🙏 感谢赞助\s*\n.*?(?=\n## |\Z)'
 if '## 🙏 感谢赞助' in content:
@@ -42,7 +41,7 @@ if '## 🙏 感谢赞助' in content:
 else:
     content = content.rstrip() + '\n\n' + section
 open('README.md', 'w', encoding='utf-8').write(content)
-"
+PYEOF
 
       - name: Commit and Push
         run: |
