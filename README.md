@@ -1,63 +1,91 @@
-# 🎬 Awesome AI Short Drama [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# 🎬 Awesome AI Short Drama
+
+> AI 短剧创作的全链路解决方案 — 从剧本到工具，从作品到方法论
+
+用 AI 做短剧，从剧本到成片，这一套就够了。持续更新，欢迎 PR 补充。
+
+[![GitHub Stars](https://img.shields.io/github/stars/Zeon7744/awesome-ai-short-drama?style=social)](https://github.com/Zeon7744/awesome-ai-short-drama)
 [![爱发电](https://img.shields.io/badge/爱发电-国内赞助-946ce6?style=flat-square)](https://ifdian.net/a/Zeon7744)
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?style=flat-square&logo=githubsponsors)](https://github.com/sponsors/Zeon7744)
 
-> AI 短剧 / AI 微短剧 / AI 漫剧 全链路工具、模型、提示词、工作流与学习资源精选清单。
+---
 
-用 AI 做短剧，从剧本到成片，这一份清单就够了。持续更新，欢迎 PR 补充。
+## 🗺️ 产品矩阵
+
+| 仓库 | 定位 | 链接 |
+|------|------|------|
+| **awesome-ai-short-drama** | 短剧创作 OS：作品 + 工具 + 资源清单 | ← 当前 |
+| [baibai](https://github.com/Zeon7744/baibai) | 通用 Vibe Coding 工具库（CLI + MCP） | 查看 → |
 
 ---
 
-## 📖 原创短篇剧本（AI短剧素材）
+## 📚 原创内容
 
-本仓库收录5部原创短篇小说，每部8000-15000字，采用视觉化写法（场景标注+短对话+高密度爽点），可直接用于AI短剧/漫剧剧本改编。详见 [short-stories/](short-stories/)。
+### 短篇小说（5部）
+
+可直接改编为 AI 短剧/漫剧的视觉化写作，8000-15000 字/部。
 
 | 作品 | 类型 | 字数 | 核心看点 |
 |------|------|------|---------|
 | [万古战神在都市](short-stories/万古战神在都市_短篇.md) | 都市修真/兵王 | ~9,300 | 战神魂穿废少，闪婚总裁，一路碾压 |
 | [帝师无双](short-stories/帝师无双_短篇.md) | 玄幻穿越/王道 | ~14,600 | 白皇降临，双皇共治，三系融合碎虚空 |
-| [战神失忆后被村姑捡回家了](short-stories/战神失忆后被村姑捡回家了_短篇.md) | 都市异能/甜宠 | ~12,400 | 失忆憨虎vs村姑，甜宠反差，战王归来 |
+| [战神失忆后被村姑捡回家了](short-stories/战神失忆后被村姑捡回家了_短篇.md) | 都市异能/甜宠 | ~12,400 | 失忆憨虎 vs 村姑，甜宠反差，战王归来 |
 | [江城情缘](short-stories/江城情缘_短篇.md) | 都市甜宠/豪门 | ~10,900 | 毒舌女主怼上冷面阎王，反差萌 |
 | [重生劫奴](short-stories/重生劫奴_短篇.md) | 玄幻修真/逆天 | ~12,000 | 天劫棋局，众生觉醒，斩道破局 |
 
----
+### 短剧剧本（8部 · 120集）
 
-## 🎬 短剧剧本库
+符合红果短剧平台规范（≤15字对话、≥3爽点/集）。
 
-本仓库收录 **8部完整短剧剧本**，符合红果短剧平台规范（≤15字对话、≥3爽点/集）。详见 [short-dramas/](short-dramas/)。
-
-| 序号 | 剧名 | 类型 | 集数 | 剧本文件 |
-|------|------|------|------|---------|
-| 1 | **剑魂重生** | 玄幻重生 | 30集 | [查看](short-dramas/剑魂重生/剑魂重生_完整剧本.md) |
-| 2 | **帝师无双** | 玄幻重生 | 10集 | [查看](short-dramas/帝师无双/帝师无双_完整剧本.md) |
-| 3 | **总裁的替身前妻** | 都市异能 | 10集 | [查看](short-dramas/总裁的替身前妻/总裁的替身前妻_完整剧本.md) |
-| 4 | **暗夜追凶** | 悬疑推理 | 10集 | [查看](short-dramas/暗夜追凶/暗夜追凶_完整剧本.md) |
-| 5 | **江城情缘** | 都市甜宠 | 30集 | [查看](short-dramas/江城情缘/江城情缘_完整剧本.md) |
-| 6 | **狂少逆袭** | 都市豪门 | 10集 | [查看](short-dramas/狂少逆袭/狂少逆袭_完整剧本.md) |
-| 7 | **神医赘婿** | 都市异能 | 10集 | [查看](short-dramas/神医赘婿/神医赘婿_完整剧本.md) |
-| 8 | **龙皇归来_完整剧本** | 玄幻重生 | 10集 | [查看](short-dramas/龙皇归来/龙皇归来_完整剧本.md) |
+| 序号 | 剧名 | 类型 | 集数 | 剧本 |
+|------|------|------|------|------|
+| 1 | [剑魂重生](short-dramas/剑魂重生/剑魂重生_完整剧本.md) | 玄幻重生 | 30集 | [查看](short-dramas/剑魂重生/剑魂重生_完整剧本.md) |
+| 2 | [帝师无双](short-dramas/帝师无双/帝师无双_完整剧本.md) | 玄幻重生 | 10集 | [查看](short-dramas/帝师无双/帝师无双_完整剧本.md) |
+| 3 | [总裁的替身前妻](short-dramas/总裁的替身前妻/总裁的替身前妻_完整剧本.md) | 都市异能 | 10集 | [查看](short-dramas/总裁的替身前妻/总裁的替身前妻_完整剧本.md) |
+| 4 | [暗夜追凶](short-dramas/暗夜追凶/暗夜追凶_完整剧本.md) | 悬疑推理 | 10集 | [查看](short-dramas/暗夜追凶/暗夜追凶_完整剧本.md) |
+| 5 | [江城情缘](short-dramas/江城情缘/江城情缘_完整剧本.md) | 都市甜宠 | 30集 | [查看](short-dramas/江城情缘/江城情缘_完整剧本.md) |
+| 6 | [狂少逆袭](short-dramas/狂少逆袭/狂少逆袭_完整剧本.md) | 都市豪门 | 10集 | [查看](short-dramas/狂少逆袭/狂少逆袭_完整剧本.md) |
+| 7 | [神医赘婿](short-dramas/神医赘婿/神医赘婿_完整剧本.md) | 都市异能 | 10集 | [查看](short-dramas/神医赘婿/神医赘婿_完整剧本.md) |
+| 8 | [龙皇归来](short-dramas/龙皇归来/龙皇归来_完整剧本.md) | 玄幻重生 | 10集 | [查看](short-dramas/龙皇归来/龙皇归来_完整剧本.md) |
 
 > 📌 剧本创作规范：标题第X集：集名 · 结尾第X集完 · 对话≤15字 · 每集≥3爽点+1甜点
 
-## 📋 目录
+---
 
-- [剧本与文案](#-剧本与文案)
-- [AI 视频生成](#-ai-视频生成)
-- [AI 图片生成](#-ai-图片生成)
-- [AI 音乐与音效](#-ai-音乐与音效)
-- [AI 配音与语音](#-ai-配音与语音)
-- [视频剪辑与后期](#-视频剪辑与后期)
-- [字幕工具](#-字幕工具)
-- [提示词库与模板](#-提示词库与模板)
-- [工作流与教程](#-工作流与教程)
-- [开源项目](#-开源项目)
-- [发布平台](#-发布平台)
-- [行业资讯与社区](#-行业资讯与社区)
-- [学习资源](#-学习资源)
+## 🛠️ 配套工具
+
+短剧专属工具链，全部开源可本地运行。
+
+| 工具 | 功能 | 使用说明 |
+|------|------|---------|
+| [格式校验器](tools/format_checker.py) | 检查剧本是否符合平台规范（禁止字符、括号格式、标题结构、评分报告） | `python tools/format_checker.py <目录>` |
+| [内容分类器](tools/classifier.py) | 自动识别短剧/小说/教程等类型，生成分类报告 | `python tools/classifier.py <目录>` |
+| [数据统计器](tools/stats_analyzer.py) | 字数/章节/类型分布统计，排行榜生成 | `python tools/stats_analyzer.py <目录>` |
+| [README 生成器](tools/readme_gen.py) | 根据内容目录自动生成 README 表格 | `python tools/readme_gen.py <readme路径> <内容目录>` |
+| [MD→HTML 转换](tools/md2html.py) | Markdown 转美观 HTML 页面，用于短剧展示 | `python tools/md2html.py <输入.md> [输出.html]` |
+| [短剧详情页生成器](scripts/gen_drama_pages.py) | 批量为每部短剧生成独立 HTML 展示页 | `python scripts/gen_drama_pages.py` |
+
+> 💡 更多通用 CLI 工具（MCP Server、格式转换等）请前往 [baibai](https://github.com/Zeon7744/baibai)
 
 ---
 
-## ✍️ 剧本与文案
+## 📖 方法论与教程
+
+| 文档 | 说明 |
+|------|------|
+| [红果平台运营策略](docs/redfruit-strategy.md) | 红果短剧投稿规范与流量机制 |
+| [短剧改编指南](docs/adaptation-guide.md) | 小说→短剧的改编方法论 |
+| [爽点设计 10 讲](docs/爽点设计-10讲.md) | 短剧核心节奏方法论（持续更新中） |
+
+> 📝 方法论文档持续创作中，欢迎 Star 跟进。
+
+---
+
+## 🔗 资源与工具清单
+
+AI 短剧全链路工具、模型、提示词、工作流精选。
+
+### ✍️ 剧本创作
 
 | 工具 | 说明 | 地址 |
 |------|------|------|
@@ -69,9 +97,9 @@
 | 通义千问 | 阿里出品，中文内容创作 | [链接](https://tongyi.aliyun.com) |
 | 文心一言 | 百度出品，中文理解 | [链接](https://yiyan.baidu.com) |
 
-## 🎥 AI 视频生成
+### 🎥 AI 视频生成
 
-### 国产平台
+#### 国产平台
 
 | 工具 | 特点 | 地址 |
 |------|------|------|
@@ -80,11 +108,9 @@
 | Vidu | 生数科技，动漫风格擅长 | [链接](https://www.vidu.studio) |
 | 智谱清影 | 智谱 AI 视频生成 | [链接](https://chatglm.cn/video) |
 | 海螺 AI (Hailuo) | MiniMax 出品，视频生成 | [链接](https://hailuoai.video) |
-| 万象 | 光年之外，视频生成 | - |
-| 星帧 | 视频生成 | - |
 | 小云雀 | 字节短剧创作平台，Seedance 2.0 接入 | - |
 
-### 海外平台
+#### 海外平台
 
 | 工具 | 特点 | 地址 |
 |------|------|------|
@@ -92,12 +118,9 @@
 | Runway | 老牌 AI 视频，Gen-4 模型 | [链接](https://runwayml.com) |
 | Pika | 视频生成与编辑 | [链接](https://pika.art) |
 | Luma Dream Machine | 图生视频，运动质量好 | [链接](https://lumalabs.ai/dream-machine) |
-| Krea | 实时生成与视频 | [链接](https://www.krea.ai) |
-| Gen-3 / Gen-4 | Runway 旗下模型 | - |
 | Veo 2 / Veo 3 | Google DeepMind 视频模型 | - |
-| Hailuo MiniMax | MiniMax 海外版 | [链接](https://hailuoai.com) |
 
-## 🎨 AI 图片生成
+### 🎨 AI 图片生成
 
 | 工具 | 特点 | 地址 |
 |------|------|------|
@@ -107,25 +130,17 @@
 | Flux | Black Forest Labs，开源模型新标杆 | [链接](https://github.com/black-forest-labs/flux) |
 | 即梦 AI | 字节文生图/图生图 | [链接](https://jimeng.jianying.com) |
 | 可灵 AI | 快手文生图 | [链接](https://klingai.kuaishou.com) |
-| DALL-E 3 | OpenAI 文生图 | - |
-| Ideogram | 文字渲染能力强 | [链接](https://ideogram.ai) |
-| SeaArt | 海艺，在线 SD，中文友好 | [链接](https://www.seaart.ai) |
-| 吐司 TusiArt | 国内在线 SD | - |
 | LiblibAI | 国内模型与 LoRA 社区 | [链接](https://www.liblib.art) |
 
-## 🎵 AI 音乐与音效
+### 🎵 AI 音乐与音效
 
 | 工具 | 特点 | 地址 |
 |------|------|------|
 | Suno | AI 作曲，支持人声，短剧 BGM/主题曲 | [链接](https://suno.com) |
 | Udio | AI 音乐生成，音质出色 | [链接](https://www.udio.com) |
-| 海绵音乐 | 字节 AI 音乐 | - |
-| 天工 SkyMusic | 昆仑万维 AI 音乐 | - |
-| Mureka | AI 音乐生成 | - |
 | ElevenLabs Sound Effects | AI 音效生成 | [链接](https://elevenlabs.io/sound-effects) |
-| Stable Audio | 开源音乐/音效生成 | - |
 
-## 🎙️ AI 配音与语音
+### 🎙️ AI 配音与语音
 
 | 工具 | 特点 | 地址 |
 |------|------|------|
@@ -134,61 +149,25 @@
 | Fish Speech | 开源语音克隆，中文效果好 | [链接](https://github.com/fishaudio/fish-speech) |
 | ChatTTS | 开源中文 TTS，自然对话风格 | [链接](https://github.com/2noise/ChatTTS) |
 | CosyVoice | 阿里开源语音克隆 | [链接](https://github.com/FunAudioLLM/CosyVoice) |
-| 火山引擎 TTS | 字节出品，音色丰富 | - |
-| Edge TTS | 微软免费 TTS | - |
 
-## 🎞️ 视频剪辑与后期
+### 🎞️ 视频剪辑与后期
 
 | 工具 | 特点 | 地址 |
 |------|------|------|
 | 剪映专业版 | 国产首选，AI 字幕/配音/特效一站式 | [链接](https://www.capcut.cn) |
 | CapCut | 剪映国际版 | [链接](https://www.capcut.com) |
 | DaVinci Resolve | 专业调色与剪辑 | [链接](https://www.blackmagicdesign.com/products/davinciresolve) |
-| Premiere Pro | Adobe 专业剪辑 | - |
-| Final Cut Pro | Mac 专业剪辑 | - |
 | Topaz Video AI | 视频超分/补帧/降噪 | [链接](https://www.topazlabs.com/topaz-video-ai) |
 
-## 📝 字幕工具
+### 📝 字幕工具
 
 | 工具 | 特点 | 地址 |
 |------|------|------|
 | 剪映自动字幕 | 一键识别，中文准确率高 | - |
 | Whisper | OpenAI 开源语音识别，多语言 | [链接](https://github.com/openai/whisper) |
 | faster-whisper | Whisper 加速版 | [链接](https://github.com/SYSTRAN/faster-whisper) |
-| 讯飞听见 | 中文语音转写 | - |
-| 网易见外 | 免费语音转写 | - |
-| Aegisub | 开源字幕编辑 | [链接](https://github.com/Aegisub/Aegisub) |
 
-## 📚 提示词库与模板
-
-| 资源 | 说明 | 地址 |
-|------|------|------|
-| awesome-gpt-image-2 | GPT-Image-2 提示词工业级模板库 | [链接](https://github.com/freestylefly/awesome-gpt-image-2) |
-| Midjourney 官方文档 | 参数与技巧参考 | [链接](https://docs.midjourney.com) |
-| Civitai | SD 模型与提示词分享社区 | [链接](https://civitai.com) |
-| LiblibAI | 国内 LoRA 与提示词 | [链接](https://www.liblib.art) |
-| OpenArt | AI 艺术提示词社区 | [链接](https://openart.ai) |
-| FlowGPT | 提示词分享社区 | [链接](https://flowgpt.com) |
-| 提示词指南 | 通用 AI 提示词技巧 | - |
-
-## 🔄 工作流与教程
-
-### ComfyUI 工作流
-
-| 资源 | 说明 |
-|------|------|
-| ComfyUI 官方示例 | 官方内置工作流 |
-| OpenArt ComfyUI 工作流 | 社区分享工作流 |
-| 跑趴人 ComfyUI 教程 | B 站 UP 主，中文教程 |
-| 秋葉aaaki ComfyUI 教程 | B 站知名教程作者 |
-
-### 短剧制作教程
-
-- B 站搜索"AI 短剧教程"，关注头部 UP 主
-- 即梦 AI / 可灵 AI 官方社区有大量案例教程
-- 抖音"AI 短剧"话题下有创作者分享制作流程
-
-### 角色一致性方案
+### 🔄 角色一致性方案
 
 - **IP-Adapter + Reference Only**：ComfyUI 中保持角色面部一致
 - **PuLID**：个性化人脸保持，提升角色一致性
@@ -196,21 +175,7 @@
 - **LoRA 训练**：用角色图片训练专属 LoRA，最稳定的一致性方案
 - **即梦角色一致性**：即梦 AI 内置角色参考功能
 
-## 🛠️ 开源项目
-
-| 项目 | 说明 | Stars | 地址 |
-|------|------|-------|------|
-| ComfyUI | 节点式 AI 图像/视频工作流 | 60k+ | [链接](https://github.com/comfyanonymous/ComfyUI) |
-| Stable Diffusion WebUI | A1111 SD Web UI | 140k+ | [链接](https://github.com/AUTOMATIC1111/stable-diffusion-webui) |
-| Fish Speech | 开源语音克隆 | 15k+ | [链接](https://github.com/fishaudio/fish-speech) |
-| ChatTTS | 开源中文 TTS | 35k+ | [链接](https://github.com/2noise/ChatTTS) |
-| CosyVoice | 阿里语音克隆 | 10k+ | [链接](https://github.com/FunAudioLLM/CosyVoice) |
-| Whisper | OpenAI 语音识别 | 70k+ | [链接](https://github.com/openai/whisper) |
-| MoneyPrinterTurbo | AI 短视频自动生成 | 25k+ | [链接](https://github.com/harry0703/MoneyPrinterTurbo) |
-| ShortGPT | AI 短视频自动化框架 | - | [链接](https://github.com/RayVentura/ShortGPT) |
-| SadTalker | 单张图片说话视频 | 12k+ | [链接](https://github.com/OpenTalker/SadTalker) |
-| MuseTalk | 实时唇形同步 | 8k+ | [链接](https://github.com/TMElyralab/MuseTalk) |
-| AnimateDiff | SD 动画生成 | 20k+ | [链接](https://github.com/guoyww/AnimateDiff) |
+---
 
 ## 📱 发布平台
 
@@ -236,35 +201,17 @@
 | TikTok | 全球最大短视频平台 |
 | ReelShort | 中国短剧出海代表 |
 | DramaBox | 短剧出海平台 |
-| GoodShort | 短剧出海平台 |
+
+---
 
 ## 📰 行业资讯与社区
 
-- **即刻 App**：搜索"AI 短剧""AI 视频"圈子，国内创作者最活跃
-- **掘金**：技术向 AI 创作教程
+- **即刻 App**：搜索"AI 短剧""AI 视频"圈子
+- **B 站**：搜索"AI 短剧教程"，关注头部 UP 主
 - **V2EX**：技术讨论，AI 工具节点
 - **少数派**：AI 工具评测与教程
 - **Reddit r/aivideo**：海外 AI 视频社区
-- **Reddit r/StableDiffusion**：SD 社区
 - **Hugging Face**：模型与数据集
-- **GitHub Trending**：每日热门项目
-- **公众号**：关注 AI 短剧/AI 视频相关公众号
-
-## 📖 学习资源
-
-### 编剧学习
-
-- 红果短剧创作者中心：平台规范与投稿指南
-- 抖音短剧创作指南：平台调性与爆款规律
-- 《故事》罗伯特·麦基：剧作经典
-- 《救猫咪》布莱克·斯奈德：节奏与结构
-
-### AI 技能学习
-
-- **B 站**：搜索"ComfyUI 教程""AI 视频教程"
-- **YouTube**：搜索"AI short film""ComfyUI tutorial"
-- **Hugging Face 课程**：免费 AI/ML 入门
-- **Fast.ai**：实用深度学习课程
 
 ---
 
@@ -276,10 +223,7 @@
 - 添加教程和工作流
 - 分享你的制作经验
 
-提交前请确保：
-- 链接可访问
-- 描述准确简洁
-- 分类正确
+---
 
 ## 📄 License
 
@@ -287,26 +231,14 @@ CC0-1.0 License - 自由使用，无需署名。
 
 ---
 
-> ⚠️ 本清单仅做工具和资源收录，不构成任何投资或商业建议。使用 AI 工具时请遵守各平台服务条款及当地法律法规。
-
----
-
 ## ☕ 支持作者
 
-如果这个清单和原创剧本对你有帮助，欢迎爱发电支持 ☕
-你的每一份支持，都会变成持续更新的动力 🚀
+如果这个仓库对你有帮助，欢迎爱发电支持 ☕
 
 | 渠道 | 方式 | 链接 |
 |------|------|------|
-| **爱发电** | 月度订阅 / 一次性打赏，微信支付宝均可 | [ifdian.net/a/Zeon7744](https://ifdian.net/a/Zeon7744) |
-
-> 金额随意，感谢支持 🙏
+| **爱发电** | 月度订阅 / 一次性打赏 | [ifdian.net/a/Zeon7744](https://ifdian.net/a/Zeon7744) |
 
 ---
 
-## 🙏 感谢赞助
-
-以下是对此项目给予支持的赞助者们：
-
-暂无赞助者 - 点击这里支持 [ifdian.net/a/Zeon7744](https://ifdian.net/a/Zeon7744)
-
+> ⚠️ 本仓库仅做资源和工具收录，不构成任何投资或商业建议。使用 AI 工具时请遵守各平台服务条款及当地法律法规。
