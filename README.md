@@ -1,37 +1,50 @@
 # awesome-ai-short-drama
 
-> AI 短剧资源合集 — 500+ IP · 200+ 剧本 · AI 工具推荐
+> AI 短剧创作资源合集 — 9部剧本130集 · 5部短篇 · 6个工具
 
 [![GitHub Stars](https://img.shields.io/github/stars/Zeon7744/awesome-ai-short-drama?style=social)](https://github.com/Zeon7744/awesome-ai-short-drama)
 [![Gitee stars](https://gitee.com/Zeon7744/awesome-ai-short-drama/badge/star.svg?theme=gvp)](https://gitee.com/Zeon7744/awesome-ai-short-drama)
 [![GitCode stars](https://gitcode.com/Zeon7744/awesome-ai-short-drama/stars/badge)](https://gitcode.com/Zeon7744/awesome-ai-short-drama)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![IPs](https://img.shields.io/badge/IPs-500%2B-brightgreen)]()
-[![Scripts](https://img.shields.io/badge/Scripts-200%2B-blue)]()
+[![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/Zeon7744/awesome-ai-short-drama/releases/tag/v1.0.0)
+
+## 在线演示
+
+- [GitHub Pages](https://zeon7744.github.io/awesome-ai-short-drama/)
 
 ## 简介
 
-**AI 短剧创作资源合集**，包含 IP 大纲、分集剧本、角色标签、AI 工具推荐、变现案例等完整创作链路线上资源。
+**AI 短剧创作资源合集**，包含完整剧本库、短篇小说、创作工具和methodology文档。
 
 ## 内容统计
 
 | 类型 | 数量 |
 |------|------|
-| IP 大纲模板 | 500+ |
-| 分集剧本 | 200+ |
-| 角色标签 | 100+ |
-| AI 工具推荐 | 50+ |
-| 变现案例 | 30+ |
+| 短剧剧本 | 9部 / 130集 |
+| 短篇小说 | 5部 / ~59K字 |
+| 创作工具 | 6个 Python 脚本 |
+| 方法论文档 | 3篇 |
 
 ## 目录结构
 
 ```
 awesome-ai-short-drama/
-├── ips/           # IP 大纲
-├── scripts/       # 分集剧本
-├── tags/          # 角色标签
-├── tools/         # AI 工具推荐
-└── cases/         # 变现案例
+├── short-dramas/     # 9部剧本 (130集)
+│   ├── 剑魂重生/
+│   ├── 帝师无双/
+│   └── ...
+├── short-stories/    # 5部短篇小说 (~59K字)
+├── tools/            # 6个创作工具
+│   ├── format_checker.py
+│   ├── classifier.py
+│   ├── stats_analyzer.py
+│   ├── readme_gen.py
+│   ├── md2html.py
+│   └── gen_drama_pages.py
+└── docs/             # 方法论文档
+    ├── adaptation-guide.md
+    ├── platform-strategy.md
+    └── shuangpoint-design.md
 ```
 
 ## 快速开始
@@ -39,6 +52,9 @@ awesome-ai-short-drama/
 ```bash
 git clone https://github.com/Zeon7744/awesome-ai-short-drama.git
 cd awesome-ai-short-drama
+# 使用工具
+python tools/format_checker.py short-dramas/
+python tools/stats_analyzer.py short-dramas/
 ```
 
 ## 多平台镜像
@@ -75,4 +91,4 @@ cd awesome-ai-short-drama
 
 ---
 
-*由 [Zeon7744](https://github.com/Zeon7744) 维护 · AI 短剧 · 三平台同步*
+*由 [Zeon7744](https://github.com/Zeon7744) 维护 · AI 短剧创作 · 三平台同步*
