@@ -1,16 +1,18 @@
-# 操作系统
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# 编辑器
-.vscode/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.env
+.venv
+env/
+venv/
 .idea/
-*.swp
-*.swo
-*~
-
-# 临时文件
-*.tmp
+.vscode/
+.DS_Store
 *.log
-*.bak
+reports/*.html
+reports/*.json
