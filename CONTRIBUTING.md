@@ -1,34 +1,30 @@
-# 贡献指南
+# Contributing to baibai
 
-感谢你愿意为 Awesome AI Short Drama 贡献内容！
+Thank you for your interest in contributing!
 
-## 如何贡献
+## How to Contribute
 
-### 1. 提交新工具/资源
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
-- Fork 本仓库
-- 在对应分类的表格中添加新条目
-- 确保链接可访问
-- 描述简洁准确（一句话说明特点）
-- 按字母顺序或推荐程度排列
-- 提交 Pull Request
+## Code Style
 
-### 2. 修正信息
+- Follow PEP 8 for Python code
+- Use type hints where possible
+- Add docstrings to all public functions
 
-- 链接失效、描述不准确、工具停运等，直接 PR 修正
+## Reporting Issues
 
-### 3. 建议新分类
+- Use the [Bug Report](../ISSUE_TEMPLATE/bug-report.md) template
+- Include version info and reproduction steps
+- Search existing issues first
 
-- 在 Issue 中提出，说明分类的必要性和包含内容
+## Pull Request Guidelines
 
-## 链接要求
-
-- 使用工具的官方网站或 GitHub 仓库链接
-- 不接受推广/返利链接
-- 已停运的工具请移除或标注
-
-## 赞助支持
-
-如果资源对你有帮助，欢迎赞助：
-- [爱发电](https://afdian.com/@Zeon7744)
-- [GitHub Sponsors](https://github.com/sponsors/Zeon7744)
+- Keep changes focused and minimal
+- Update documentation if needed
+- Add tests for new features
+- Reference related issues
