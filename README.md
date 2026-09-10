@@ -7,6 +7,7 @@
 [![GitCode stars](https://gitcode.com/Zeon7744/awesome-ai-short-drama/stars/badge)](https://gitcode.com/Zeon7744/awesome-ai-short-drama)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/Zeon7744/awesome-ai-short-drama/releases/tag/v1.0.0)
+[![GitHub Pages](https://img.shields.io/badge/Pages-online-success.svg)](https://zeon7744.github.io/awesome-ai-short-drama/)
 
 ## 在线演示
 
@@ -14,7 +15,7 @@
 
 ## 简介
 
-**AI 短剧创作资源合集**，包含完整剧本库、短篇小说、创作工具和methodology文档。
+**AI 短剧创作资源合集**，包含完整剧本库、短篇小说、创作工具和 method 论文档。
 
 ## 内容统计
 
@@ -57,6 +58,10 @@ python tools/format_checker.py short-dramas/
 python tools/stats_analyzer.py short-dramas/
 ```
 
+## 文档
+
+- [CHANGELOG.md](CHANGELOG.md) — 版本历史
+
 ## 多平台镜像
 
 | 平台 | 链接 |
@@ -88,6 +93,8 @@ python tools/stats_analyzer.py short-dramas/
 ## 贡献
 
 欢迎提交内容！详见 [CONTRIBUTING.md](CONTRIBUTING.md)
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 ---
 
