@@ -1,51 +1,30 @@
-# 贡献指南
+# Contributing to baibai
 
-感谢你愿意为 Awesome AI Short Drama 贡献内容！
+Thank you for your interest in contributing!
 
-## 如何贡献
+## How to Contribute
 
-### 1. 提交新工具/资源
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
-- Fork 本仓库
-- 在对应分类的表格中添加新条目
-- 确保链接可访问
-- 描述简洁准确（一句话说明特点）
-- 按字母顺序或推荐程度排列
-- 提交 Pull Request
+## Code Style
 
-### 2. 修正信息
+- Follow PEP 8 for Python code
+- Use type hints where possible
+- Add docstrings to all public functions
 
-- 链接失效、描述不准确、工具停运等，直接 PR 修正
+## Reporting Issues
 
-### 3. 建议新分类
+- Use the [Bug Report](../ISSUE_TEMPLATE/bug-report.md) template
+- Include version info and reproduction steps
+- Search existing issues first
 
-- 在 Issue 中提出，说明分类的必要性和包含内容
+## Pull Request Guidelines
 
-## 链接要求
-
-- 使用工具的官方网站或 GitHub 仓库链接
-- 不接受推广/返利链接
-- 已停运的工具请移除或标注
-
-## 分类标准
-
-- **剧本与文案**：AI 写作、剧本辅助工具
-- **AI 视频生成**：文生视频、图生视频平台
-- **AI 图片生成**：角色设计、分镜、场景生成
-- **AI 音乐与音效**：BGM、主题曲、音效生成
-- **AI 配音与语音**：TTS、语音克隆
-- **视频剪辑与后期**：剪辑、调色、特效、超分
-- **字幕工具**：语音识别、字幕编辑
-- **提示词库与模板**：提示词、模板、参考资源
-- **工作流与教程**：制作流程、教程、角色一致性方案
-- **开源项目**：可本地部署的开源工具
-- **发布平台**：短剧发布与分发渠道
-- **行业资讯与社区**：资讯、社区、讨论
-- **学习资源**：书籍、课程、入门资料
-
-## 注意事项
-
-- 工具必须与 AI 短剧/AI 视频创作相关
-- 描述保持客观，不夸大
-- 中文工具优先标注中文特点
-- 开源项目标注 Star 数量（定期更新）
+- Keep changes focused and minimal
+- Update documentation if needed
+- Add tests for new features
+- Reference related issues
