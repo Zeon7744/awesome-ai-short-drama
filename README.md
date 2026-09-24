@@ -5,8 +5,19 @@
 用 AI 做短剧，从剧本到成片，这一套就够了。持续更新，欢迎 PR 补充。
 
 [![GitHub Stars](https://img.shields.io/github/stars/Zeon7744/awesome-ai-short-drama?style=social)](https://github.com/Zeon7744/awesome-ai-short-drama)
+[![Gitee stars](https://gitee.com/Zeon7744/awesome-ai-short-drama/badge/star.svg?theme=gvp)](https://gitee.com/Zeon7744/awesome-ai-short-drama)
 [![爱发电](https://img.shields.io/badge/爱发电-国内赞助-946ce6?style=flat-square)](https://ifdian.net/a/Zeon7744)
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?style=flat-square&logo=githubsponsors)](https://github.com/sponsors/Zeon7744)
+
+---
+
+## 三平台同步
+
+| 平台 | 链接 |
+|------|------|
+| **Gitee** (主站) | [gitee.com/Zeon7744/awesome-ai-short-drama](https://gitee.com/Zeon7744/awesome-ai-short-drama) |
+| GitHub | [github.com/Zeon7744/awesome-ai-short-drama](https://github.com/Zeon7744/awesome-ai-short-drama) |
+| GitCode | [gitcode.com/Zeon7744/awesome-ai-short-drama](https://gitcode.com/Zeon7744/awesome-ai-short-drama) |
 
 ---
 
@@ -15,7 +26,7 @@
 | 仓库 | 定位 | 链接 |
 |------|------|------|
 | **awesome-ai-short-drama** | 短剧创作 OS：作品 + 工具 + 资源清单 | ← 当前 |
-| [baibai](https://github.com/Zeon7744/baibai) | 通用 Vibe Coding 工具库（CLI + MCP） | 查看 → |
+| [baibai](https://gitee.com/Zeon7744/baibai) | 通用 Vibe Coding 工具库（CLI + MCP） | 查看 → |
 
 ---
 
@@ -66,7 +77,7 @@
 | [MD→HTML 转换](tools/md2html.py) | Markdown 转美观 HTML 页面，用于短剧展示 | `python tools/md2html.py <输入.md> [输出.html]` |
 | [短剧详情页生成器](scripts/gen_drama_pages.py) | 批量为每部短剧生成独立 HTML 展示页 | `python scripts/gen_drama_pages.py` |
 
-> 💡 更多通用 CLI 工具（MCP Server、格式转换等）请前往 [baibai](https://github.com/Zeon7744/baibai)
+> 💡 更多通用 CLI 工具（MCP Server、格式转换等）请前往 [baibai](https://gitee.com/Zeon7744/baibai)
 
 ---
 
