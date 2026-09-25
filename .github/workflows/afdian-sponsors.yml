@@ -13,33 +13,8 @@ jobs:
 
       - name: Fetch Afdian Sponsors
         env:
-          AFDIAN_USER_ID: "0c59dda8a1bb11f19b9552540025c377"
           AFDIAN_TOKEN: "${{ secrets.AFDIAN_TOKEN }}"
-        run: |
-          TS=$(date +%s)
-          PARAMS='{"page":1}'
-          SIGN=$(echo -n "${AFDIAN_TOKEN}${PARAMS}${TS}${AFDIAN_USER_ID}" | md5sum | cut -d' ' -f1)
-          curl -s -X POST "https://afdian.net/api/open/query-sponsor" \
-            -H "Content-Type: application/json" \
-            -d "{\"user_id\": \"${AFDIAN_USER_ID}\", \"params\": \"${PARAMS}\", \"ts\": ${TS}, \"sign\": \"${SIGN}\"}" \
-            | python3 -c "import json,sys;d=json.load(sys.stdin);[print(f\"- [{s.get('user',{}).get('name','匿名')}](https://afdian.net/u/{s.get('user',{}).get('user_id','')})\") for s in d['data']['list'][:20]]" \
-            > /tmp/sponsors.txt
-          cat /tmp/sponsors.txt
-
-      - name: Update README
-        run: |
-          SPONSORS=$(cat /tmp/sponsors.txt 2>/dev/null || echo "暂无赞助者")
-          python3 -c "
-import re,os
-c=open('README.md',encoding='utf-8').read()
-s=open('/tmp/sponsors.txt',encoding='utf-8').read().strip() if os.path.exists('/tmp/sponsors.txt') else ''
-if not s: s='暂无赞助者'
-sec=f'## 感谢赞助\n\n{s}\n\n---\n'
-p=r'## 感谢赞助\s*\n.*?(?=\n## |\Z)'
-if '## 感谢赞助' in c: c=re.sub(p,sec+'\n',c,flags=re.DOTALL)
-else: c=c.rstrip()+'\n\n'+sec
-open('README.md','w',encoding='utf-8').write(c)
-"
+        run: bash scripts/fetch-sponsors.sh
 
       - name: Commit and Push
         run: |
