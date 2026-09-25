@@ -1,4 +1,4 @@
-name: Sync to Gitee
+name: Sync Scripts to Gitee
 
 on:
   push:
@@ -19,9 +19,6 @@ jobs:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
           GITEE_USER: ${{ secrets.GITEE_USER }}
         run: |
-          # 添加 Gitee remote
           git remote add gitee https://${{ secrets.GITEE_USER }}:${GITEE_TOKEN}@gitee.com/${{ secrets.GITEE_USER }}/baibai.git
-          # 推送所有分支
           git push gitee --all --force
-          # 推送标签
           git push gitee --tags --force
