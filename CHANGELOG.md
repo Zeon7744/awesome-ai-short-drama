@@ -1,46 +1,28 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+## [v1.0.0] - 2026-09-25
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+### 新增
+- 9 部短剧剧本库（130集）
+- 5 部短篇小说（可改编素材）
+- 6 个创作工具（格式校验、数据分析、页面生成等）
+- 3 篇方法论文档（爽点设计、改编指南、平台策略）
+
+### 优化
+- README 全面重写，内容索引优化
+- 添加双平台镜像说明
+- 项目结构标准化
+
+### 文档
+- CONTRIBUTING.md 贡献指南
+- CODE_OF_CONDUCT.md 行为准则
+- LICENSE MIT 许可证
 
 ---
 
 ## [Unreleased]
 
-### Added
-- README unified template with accurate content statistics
-- 9 drama scripts (130 episodes) in 3 genres: romance, suspense, workplace
-- 5 short stories (~59K Chinese characters)
-- 6 production tools: format checker, classifier, stats analyzer, readme generator, md2html, page generator
-- Adaptation methodology: platform-strategy.md, shuangpoint-design.md
-- GitHub Pages site deployed
-
-### Fixed
-- README: corrected content stats (was incorrectly showing inflated numbers)
-- README: added GitHub Pages link
-
----
-
-## [v1.0.0] — 2026-09-05
-
-### Added
-- Complete AI short drama creation system
-- 9 full-length scripts ready for production
-- 5 bonus short stories
-- Modular toolchain for script processing
-- Release tag: v1.0.0
-
----
-
-## [v0.1.0] — 2026-08-10
-
-### Added
-- Initial project scaffold
-- First 3 drama scripts
-- Basic toolchain (format checker)
-
----
-
-[v1.0.0]: https://github.com/Zeon7744/awesome-ai-short-drama/releases/tag/v1.0.0
+### 计划中
+- 更多短剧剧本
+- 更多创作工具
+- 社区投稿系统
