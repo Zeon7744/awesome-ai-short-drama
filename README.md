@@ -1,29 +1,86 @@
-# awesome-ai-short-drama
+# 🎬 Awesome AI Short Drama
 
-> AI 短剧创作资源合集 — 9部剧本130集 · 5部短篇 · 6个工具
+> **AI 短剧创作全链路解决方案** — 从剧本到成片，这一套就够了  
+> 开源短剧剧本库 · 创作工具 · 方法论 · 资源清单
 
 [![GitHub Stars](https://img.shields.io/github/stars/Zeon7744/awesome-ai-short-drama?style=social)](https://github.com/Zeon7744/awesome-ai-short-drama)
-[![Gitee stars](https://gitee.com/Zeon7744/awesome-ai-short-drama/badge/star.svg?theme=gvp)](https://gitee.com/Zeon7744/awesome-ai-short-drama)
-<<<<<<< HEAD
-[![爱发电](https://img.shields.io/badge/爱发电-国内赞助-946ce6?style=flat-square)](https://ifdian.net/a/Zeon7744)
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsors-ea4aaa?style=flat-square&logo=githubsponsors)](https://github.com/sponsors/Zeon7744)
-=======
-[![GitCode stars](https://gitcode.com/Zeon7744/awesome-ai-short-drama/stars/badge)](https://gitcode.com/Zeon7744/awesome-ai-short-drama)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/Zeon7744/awesome-ai-short-drama/releases/tag/v1.0.0)
-[![GitHub Pages](https://img.shields.io/badge/Pages-online-success.svg)](https://zeon7744.github.io/awesome-ai-short-drama/)
->>>>>>> origin/main
+[![GitHub Forks](https://img.shields.io/github/forks/Zeon7744/awesome-ai-short-drama?style=social)](https://github.com/Zeon7744/awesome-ai-short-drama/forks)
+[![GitHub License](https://img.shields.io/github/license/Zeon7744/awesome-ai-short-drama)](https://github.com/Zeon7744/awesome-ai-short-drama/blob/main/LICENSE)
+[![Gitee Stars](https://gitee.com/Zeon7744/awesome-ai-short-drama/badge/star.svg?theme=gvp)](https://gitee.com/Zeon7744/awesome-ai-short-drama)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![Redfruit Ready](https://img.shields.io/badge/红果-ready-success.svg)](https://www.shortdramas.com)
 
-## 在线演示
+---
 
-<<<<<<< HEAD
-## 三平台同步
+## 📌 这是 GitHub 官方主仓
 
-| 平台 | 链接 |
+> **Gitee 镜像**: [gitee.com/Zeon7744/awesome-ai-short-drama](https://gitee.com/Zeon7744/awesome-ai-short-drama)  
+> **GitCode 镜像**: [gitcode.com/Zeon7744/awesome-ai-short-drama](https://gitcode.com/Zeon7744/awesome-ai-short-drama)
+
+Issues 和 PR 请在 GitHub 提交。
+
+---
+
+## 📊 内容概览
+
+| 类别 | 数量 | 说明 |
+|------|------|------|
+| 🎭 短剧剧本 | 9 部 | 130 集，符合红果平台规范 |
+| 📖 短篇小说 | 5 部 | 可直接改编为短剧 |
+| 🛠️ 创作工具 | 6 个 | 格式校验、数据分析、页面生成 |
+| 📚 方法论文档 | 3 篇 | 爽点设计、改编指南、平台策略 |
+
+---
+
+## 🎬 短剧剧本库
+
+| 序号 | 剧名 | 类型 | 集数 | 亮点 |
+|------|------|------|------|------|
+| 1 | [剑魂重生](short-dramas/剑魂重生/) | 玄幻重生 | 30集 | 战神魂穿废少 |
+| 2 | [帝师无双](short-dramas/帝师无双/) | 玄幻穿越 | 10集 | 双皇共治 |
+| 3 | [总裁的替身前妻](short-dramas/总裁的替身前妻/) | 都市异能 | 10集 | 马甲掉落 |
+| 4 | [暗夜追凶](short-dramas/暗夜追凶/) | 悬疑推理 | 10集 | 侦探悬疑 |
+| 5 | [江城情缘](short-dramas/江城情缘/) | 都市甜宠 | 30集 | 豪门恋曲 |
+| 6 | [狂少逆袭](short-dramas/狂少逆袭/) | 都市豪门 | 10集 | 废柴崛起 |
+| 7 | [神医赘婿](short-dramas/神医赘婿/) | 都市异能 | 10集 | 医术无双 |
+| 8 | [龙皇归来](short-dramas/龙皇归来/) | 玄幻重生 | 10集 | 龙王归来 |
+| 9 | [替身归来](short-dramas/替身归来/) | 都市豪门 | 10集 | 身份反转 |
+
+> 每部剧本均符合 **红果短剧平台规范**（≤15字对话，≥3爽点/集）
+
+---
+
+## 📖 短篇小说库
+
+| 作品 | 类型 | 字数 | 改编建议 |
+|------|------|------|----------|
+| [万古战神在都市](short-stories/万古战神在都市_短篇.md) | 都市修真 | ~9,300 | 战神流短剧 |
+| [帝师无双](short-stories/帝师无双_短篇.md) | 玄幻穿越 | ~14,600 | 王道玄幻短剧 |
+| [战神失忆后被村姑捡回家了](short-stories/战神失忆后被村姑捡回家了_短篇.md) | 都市异能 | ~12,400 | 甜宠反差短剧 |
+| [江城情缘](short-stories/江城情缘_短篇.md) | 都市甜宠 | ~10,900 | 豪门恋曲短剧 |
+| [重生劫奴](short-stories/重生劫奴_短篇.md) | 玄幻修真 | ~12,000 | 逆天改命短剧 |
+
+---
+
+## 🛠️ 配套工具
+
+| 工具 | 功能 | 快速命令 |
+|------|------|----------|
+| [格式校验器](tools/format_checker.py) | 检查剧本规范 | `python tools/format_checker.py <目录>` |
+| [数据统计器](tools/stats_analyzer.py) | 字数/章节统计 | `python tools/stats_analyzer.py <目录>` |
+| [README 生成器](tools/readme_gen.py) | 自动生成文档 | `python tools/readme_gen.py <readme> <目录>` |
+| [Markdown 转 HTML](tools/md2html.py) | 内容展示 | `python tools/md2html.py input.md` |
+| [短剧详情页生成器](scripts/gen_drama_pages.py) | 批量生成展示页 | `python scripts/gen_drama_pages.py` |
+
+---
+
+## 📚 方法论与教程
+
+| 文档 | 说明 |
 |------|------|
-| **Gitee** (主站) | [gitee.com/Zeon7744/awesome-ai-short-drama](https://gitee.com/Zeon7744/awesome-ai-short-drama) |
-| GitHub | [github.com/Zeon7744/awesome-ai-short-drama](https://github.com/Zeon7744/awesome-ai-short-drama) |
-| GitCode | [gitcode.com/Zeon7744/awesome-ai-short-drama](https://gitcode.com/Zeon7744/awesome-ai-short-drama) |
+| [爽点设计 10 讲](docs/爽点设计-10讲.md) | 短剧核心节奏方法论 |
+| [短剧改编指南](docs/adaptation-guide.md) | 小说→短剧的改编方法论 |
+| [红果平台运营策略](docs/redfruit-strategy.md) | 投稿规范与流量机制 |
 
 ---
 
@@ -32,149 +89,118 @@
 | 仓库 | 定位 | 链接 |
 |------|------|------|
 | **awesome-ai-short-drama** | 短剧创作 OS：作品 + 工具 + 资源清单 | ← 当前 |
-| [baibai](https://gitee.com/Zeon7744/baibai) | 通用 Vibe Coding 工具库（CLI + MCP） | 查看 → |
-=======
-- [GitHub Pages](https://zeon7744.github.io/awesome-ai-short-drama/)
-
-## 简介
->>>>>>> origin/main
-
-**AI 短剧创作资源合集**，包含完整剧本库、短篇小说、创作工具和 method 论文档。
-
-## 内容统计
-
-<<<<<<< HEAD
-### 短篇小说（5部）
-
-可直接改编为 AI 短剧/漫剧的视觉化写作，8000-15000 字/部。
-
-| 作品 | 类型 | 字数 | 核心看点 |
-|------|------|------|---------|
-| [万古战神在都市](short-stories/万古战神在都市_短篇.md) | 都市修真/兵王 | ~9,300 | 战神魂穿废少，闪婚总裁，一路碾压 |
-| [帝师无双](short-stories/帝师无双_短篇.md) | 玄幻穿越/王道 | ~14,600 | 白皇降临，双皇共治，三系融合碎虚空 |
-| [战神失忆后被村姑捡回家了](short-stories/战神失忆后被村姑捡回家了_短篇.md) | 都市异能/甜宠 | ~12,400 | 失忆憨虎 vs 村姑，甜宠反差，战王归来 |
-| [江城情缘](short-stories/江城情缘_短篇.md) | 都市甜宠/豪门 | ~10,900 | 毒舌女主怼上冷面阎王，反差萌 |
-| [重生劫奴](short-stories/重生劫奴_短篇.md) | 玄幻修真/逆天 | ~12,000 | 天劫棋局，众生觉醒，斩道破局 |
-
-### 短剧剧本（9部 · 130集）
-
-符合红果短剧平台规范（≤15字对话、≥3爽点/集）。
-
-| 序号 | 剧名 | 类型 | 集数 | 剧本 |
-|------|------|------|------|------|
-| 1 | [剑魂重生](short-dramas/剑魂重生/剑魂重生_完整剧本.md) | 玄幻重生 | 30集 | [查看](short-dramas/剑魂重生/剑魂重生_完整剧本.md) |
-| 2 | [帝师无双](short-dramas/帝师无双/帝师无双_完整剧本.md) | 玄幻重生 | 10集 | [查看](short-dramas/帝师无双/帝师无双_完整剧本.md) |
-| 3 | [总裁的替身前妻](short-dramas/总裁的替身前妻/总裁的替身前妻_完整剧本.md) | 都市异能 | 10集 | [查看](short-dramas/总裁的替身前妻/总裁的替身前妻_完整剧本.md) |
-| 4 | [暗夜追凶](short-dramas/暗夜追凶/暗夜追凶_完整剧本.md) | 悬疑推理 | 10集 | [查看](short-dramas/暗夜追凶/暗夜追凶_完整剧本.md) |
-| 5 | [江城情缘](short-dramas/江城情缘/江城情缘_完整剧本.md) | 都市甜宠 | 30集 | [查看](short-dramas/江城情缘/江城情缘_完整剧本.md) |
-| 6 | [狂少逆袭](short-dramas/狂少逆袭/狂少逆袭_完整剧本.md) | 都市豪门 | 10集 | [查看](short-dramas/狂少逆袭/狂少逆袭_完整剧本.md) |
-| 7 | [神医赘婿](short-dramas/神医赘婿/神医赘婿_完整剧本.md) | 都市异能 | 10集 | [查看](short-dramas/神医赘婿/神医赘婿_完整剧本.md) |
-| 8 | [龙皇归来](short-dramas/龙皇归来/龙皇归来_完整剧本.md) | 玄幻重生 | 10集 | [查看](short-dramas/龙皇归来/龙皇归来_完整剧本.md) |
-| 9 | [替身归来](short-dramas/替身归来/替身归来_完整剧本.md) | 都市豪门 | 10集 | [查看](short-dramas/替身归来/替身归来_完整剧本.md) |
-
-> 📌 剧本创作规范：标题第X集：集名 · 结尾第X集完 · 对话≤15字 · 每集≥3爽点+1甜点
+| [baibai](https://github.com/Zeon7744/baibai) | 通用 Vibe Coding 工具库 | → |
+| [dev-artifacts](https://github.com/Zeon7744/dev-artifacts) | 开发成果成品库 | → |
 
 ---
 
-## 🛠️ 配套工具
+## 🚀 快速开始
 
-短剧专属工具链，全部开源可本地运行。
-
-| 工具 | 功能 | 使用说明 |
-|------|------|---------|
-| [格式校验器](tools/format_checker.py) | 检查剧本是否符合平台规范（禁止字符、括号格式、标题结构、评分报告） | `python tools/format_checker.py <目录>` |
-| [内容分类器](tools/classifier.py) | 自动识别短剧/小说/教程等类型，生成分类报告 | `python tools/classifier.py <目录>` |
-| [数据统计器](tools/stats_analyzer.py) | 字数/章节/类型分布统计，排行榜生成 | `python tools/stats_analyzer.py <目录>` |
-| [README 生成器](tools/readme_gen.py) | 根据内容目录自动生成 README 表格 | `python tools/readme_gen.py <readme路径> <内容目录>` |
-| [MD→HTML 转换](tools/md2html.py) | Markdown 转美观 HTML 页面，用于短剧展示 | `python tools/md2html.py <输入.md> [输出.html]` |
-| [短剧详情页生成器](scripts/gen_drama_pages.py) | 批量为每部短剧生成独立 HTML 展示页 | `python scripts/gen_drama_pages.py` |
-
-> 💡 更多通用 CLI 工具（MCP Server、格式转换等）请前往 [baibai](https://gitee.com/Zeon7744/baibai)
-
----
-
-## 📖 方法论与教程
-
-| 文档 | 说明 |
-=======
-| 类型 | 数量 |
->>>>>>> origin/main
-|------|------|
-| 短剧剧本 | 9部 / 130集 |
-| 短篇小说 | 5部 / ~59K字 |
-| 创作工具 | 6个 Python 脚本 |
-| 方法论文档 | 3篇 |
-
-## 目录结构
-
-```
-awesome-ai-short-drama/
-├── short-dramas/     # 9部剧本 (130集)
-│   ├── 剑魂重生/
-│   ├── 帝师无双/
-│   └── ...
-├── short-stories/    # 5部短篇小说 (~59K字)
-├── tools/            # 6个创作工具
-│   ├── format_checker.py
-│   ├── classifier.py
-│   ├── stats_analyzer.py
-│   ├── readme_gen.py
-│   ├── md2html.py
-│   └── gen_drama_pages.py
-└── docs/             # 方法论文档
-    ├── adaptation-guide.md
-    ├── platform-strategy.md
-    └── shuangpoint-design.md
-```
-
-## 快速开始
+### 1. 克隆仓库
 
 ```bash
 git clone https://github.com/Zeon7744/awesome-ai-short-drama.git
 cd awesome-ai-short-drama
-# 使用工具
-python tools/format_checker.py short-dramas/
-python tools/stats_analyzer.py short-dramas/
 ```
 
-## 文档
+### 2. 浏览剧本
 
-- [CHANGELOG.md](CHANGELOG.md) — 版本历史
+```bash
+# 查看短剧列表
+ls short-dramas/
 
-## 多平台镜像
+# 查看小说列表
+ls short-stories/
+```
 
-| 平台 | 链接 |
-|------|------|
-| GitHub (主仓库) | [GitHub](https://github.com/Zeon7744/awesome-ai-short-drama) |
-| Gitee | [Gitee](https://gitee.com/Zeon7744/awesome-ai-short-drama) |
-| GitCode | [GitCode](https://gitcode.com/Zeon7744/awesome-ai-short-drama) |
+### 3. 运行工具
 
-## 赞助与支持
+```bash
+# 校验剧本格式
+python tools/format_checker.py short-dramas/
 
-| 平台 | 链接 | 支付方式 |
-|------|------|----------|
-| ☕ **爱发电** | [afdian.com/@Zeon7744](https://afdian.com/@Zeon7744) | 支付宝 / 微信支付 |
-| 🌍 **GitHub Sponsors** | [github.com/sponsors/Zeon7744](https://github.com/sponsors/Zeon7744) | PayPal / Stripe |
+# 统计内容数据
+python tools/stats_analyzer.py short-dramas/
 
-### 赞助档位
-
-| 档位 | 价格 | 权益 |
-|------|------|------|
-| ☕ 请喝咖啡 | ¥18/月 | 感谢支持 |
-| 🍺 请喝啤酒 | ¥58/月 | 优先回复 Issue |
-| 🎁 项目赞助 | ¥188/月 | 定制内容需求 |
-
-## 相关项目
-
-- [baibai](https://github.com/Zeon7744/baibai) — MCP 工具库（短剧格式校验器在此）
-- [dev-artifacts](https://github.com/Zeon7744/dev-artifacts) — 开发工具箱
-
-## 贡献
-
-欢迎提交内容！详见 [CONTRIBUTING.md](CONTRIBUTING.md)
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+# 生成短剧展示页
+python scripts/gen_drama_pages.py
+```
 
 ---
 
-*由 [Zeon7744](https://github.com/Zeon7744) 维护 · AI 短剧创作 · 三平台同步*
+## 📈 项目统计
+
+- **总字数**: ~80,000+ 字
+- **短剧集数**: 130 集
+- **剧本数量**: 9 部
+- **工具数量**: 6 个
+- **方法论文档**: 3 篇
+
+---
+
+## 🎯 创作规范
+
+所有剧本遵循以下规范：
+
+1. **标题格式**: `第X集：集名`
+2. **结尾标记**: `第X集完`
+3. **对话长度**: ≤15 字/句
+4. **节奏要求**: 每集 ≥3 爽点 + 1 甜点
+5. **禁止字符**: 耀、曜
+
+---
+
+## 🤝 贡献指南
+
+欢迎贡献！你可以：
+
+- 补充新的短剧剧本
+- 添加创作工具
+- 完善方法论文档
+- 修正已有内容
+
+### 贡献流程
+
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/new-drama`)
+3. 提交更改 (`git commit -m 'Add new drama: XXX'`)
+4. 推送到分支 (`git push origin feature/new-drama`)
+5. 开启 Pull Request
+
+---
+
+## 📰 行业资讯
+
+关注 AI 短剧行业动态：
+
+- [红果短剧官网](https://www.shortdramas.com)
+- [抖音短剧](https://www.douyin.com)
+- [即刻 - AI短剧圈子](https://jike.com)
+
+---
+
+## ☕ 支持作者
+
+如果这个项目对你有帮助，欢迎赞助 ☕
+
+| 渠道 | 方式 |
+|------|------|
+| [爱发电](https://afdian.com/@Zeon7744) | 支付宝 / 微信支付 |
+| [GitHub Sponsors](https://github.com/sponsors/Zeon7744) | PayPal / Stripe |
+
+---
+
+## 📄 License
+
+CC0-1.0 License — 自由使用，无需署名。
+
+---
+
+<div align="center">
+
+**由 [Zeon7744](https://github.com/Zeon7744) 维护**  
+*AI 短剧创作全链路开源项目*
+
+⭐ 如果对你有帮助，点个 Star 鼓励一下！
+
+</div>
