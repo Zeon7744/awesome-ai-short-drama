@@ -204,3 +204,15 @@ CC0-1.0 License — 自由使用，无需署名。
 ⭐ 如果对你有帮助，点个 Star 鼓励一下！
 
 </div>
+
+---
+
+## 🚀 免费 → Pro → 企业（变现入口）
+
+免费=浏览素材；Pro=下载完整剧本/小说；企业=商用授权+定制题材
+
+- **免费**：立即 [安装/克隆] 使用，命中配额即可升级。
+- **Pro**：[Gitee Pro 订阅](https://gitee.com/Zeon7744) 解锁高级能力。
+- **企业**：私有部署 / 定制需求 → 见 `pricing.md`，或联系商务（GitHub Issues / Gitee）。
+
+> 详细定价与 SKU 见 [pricing.md](pricing.md) ｜ 支持项目见 [FUNDING.yml](FUNDING.yml)
