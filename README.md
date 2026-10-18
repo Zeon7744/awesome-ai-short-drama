@@ -1,4 +1,7 @@
 # 🎬 Awesome AI Short Drama
+> ✅ **国产短剧引擎已并入**：原 `domestic-drama` 仓的引擎(`drama-scripts/drama_engine.py`)、
+> 测试、素材已迁入本仓 `drama-scripts/`；`domestic-drama` 归档停止独立维护。
+
 
 > **AI 短剧创作全链路解决方案** — 从剧本到成片，这一套就够了  
 > 开源短剧剧本库 · 创作工具 · 方法论 · 资源清单
