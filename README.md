@@ -216,3 +216,15 @@ CC0-1.0 License — 自由使用，无需署名。
 - **企业**：私有部署 / 定制需求 → 见 `pricing.md`，或联系商务（GitHub Issues / Gitee）。
 
 > 详细定价与 SKU 见 [pricing.md](pricing.md) ｜ 支持项目见 [FUNDING.yml](FUNDING.yml)
+
+---
+
+## 快速上手
+依赖安装：
+```bash
+无 Python 依赖（纯内容/配置仓）
+```
+
+## 变现路径
+内容/素材仓，商用需遵循 License（CC）；Pro 素材订阅功能待接 ai-mcn-studio 变现通道。
+> 定价与赞助：见仓库内 pricing.md / FUNDING.yml（若有）。
