@@ -1,4 +1,7 @@
 # 🎬 Awesome AI Short Drama
+> ✅ **国产短剧引擎已并入**：原 `domestic-drama` 仓的引擎(`drama-scripts/drama_engine.py`)、
+> 测试、素材已迁入本仓 `drama-scripts/`；`domestic-drama` 归档停止独立维护。
+
 
 > **AI 短剧创作全链路解决方案** — 从剧本到成片，这一套就够了  
 > 开源短剧剧本库 · 创作工具 · 方法论 · 资源清单
@@ -204,3 +207,35 @@ CC0-1.0 License — 自由使用，无需署名。
 ⭐ 如果对你有帮助，点个 Star 鼓励一下！
 
 </div>
+
+---
+
+## 🚀 免费 → Pro → 企业（变现入口）
+
+免费=浏览素材；Pro=下载完整剧本/小说；企业=商用授权+定制题材
+
+- **免费**：立即 [安装/克隆] 使用，命中配额即可升级。
+- **Pro**：[Gitee Pro 订阅](https://gitee.com/Zeon7744) 解锁高级能力。
+- **企业**：私有部署 / 定制需求 → 见 `pricing.md`，或联系商务（GitHub Issues / Gitee）。
+
+> 详细定价与 SKU 见 [pricing.md](pricing.md) ｜ 支持项目见 [FUNDING.yml](FUNDING.yml)
+
+---
+
+## 快速上手
+依赖安装：
+```bash
+无 Python 依赖（纯内容/配置仓）
+```
+
+## 变现路径
+内容/素材仓，商用需遵循 License（CC）；Pro 素材订阅功能待接 ai-mcn-studio 变现通道。
+
+## 🎬 可运行 demo
+`python3 demo_shortdrama.py`：一条命令跑通"素材扫库 → 内容分类 → 格式校验 → 变现钩子"，资源仓从"能翻素材"升级为"能自证可用 + 看到变现入口"。
+
+## ⚖️ 法控声明（内容与版权）
+- **内容免责**：本仓素材/剧本/方法论**仅供创作参考与学习**，商用须遵循 LICENSE（代码 MIT）+ LICENSE-CONTENT（示例内容 CC-BY-NC）授权范围；AI 生成/改编内容可能含版权与合规风险，发布责任由使用者承担。
+- **合规卡点**：短剧发布前须完成平台备案与人工合规审查（对接 ai-mcn-studio 的 `batch_compliance` 批量合规扫描）。
+- **数据脱敏**：素材不采集/存储任何真实用户个人信息；短剧素材中的虚构人物不涉真实肖像权。
+> 定价与赞助：见仓库内 pricing.md / FUNDING.yml（若有）。
