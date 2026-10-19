@@ -1,13 +1,9 @@
-# TODO: 补全正式依赖
-# 当前为最小集，基于项目代码推断
+# awesome-ai-short-drama 依赖
+# 推断来源：grep import 语句（2026-10-19 红剑）
+# 主要使用Python标准库 + 自定义tools模块，无第三方强依赖
+# TODO: 确认是否需要 playwright/selenium（网页内容抓取）
+# TODO: 确认是否需要 aiohttp/httpx（异步HTTP）
 
-# 核心依赖
-# （本项目主要依赖标准库 + 本地 tools 模块）
-# 如需LLM生成功能，取消注释下方行：
-# openai>=1.0.0
-# anthropic>=0.20.0
-
-# 可选依赖（按需安装）
-# pytest>=7.0        # 测试
-# black>=23.0        # 代码格式化
-# flake8>=6.0        # 代码检查
+# 如有网络请求需求，取消下面注释：
+# httpx>=0.27.0
+# aiohttp>=3.9.0
