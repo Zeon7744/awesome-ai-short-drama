@@ -20,8 +20,14 @@ from tools.classifier import classify_content  # noqa: E402
 from tools.format_checker import validate_directory  # noqa: E402
 
 # 变现钩子参数（与 README "免费→Pro→企业"对齐）
-PRO_PRICE_CNY = 299  # 素材库订阅 Pro 参考价
-PAYMENT_CHANNELS = ["支付宝个人码", "BufPay"]
+PRO_PRICE_CNY = 49  # 与 README 对齐：Pro ¥49/月
+PAYMENT_CHANNELS = ["爱发电 afdian.com/@Zeon7744", "支付宝个人码"]
+
+try:
+    import billing
+except ImportError:
+    billing = None
+
 
 
 def _scan_materials() -> list[str]:
@@ -82,4 +88,10 @@ def run() -> None:
 
 
 if __name__ == "__main__":
+    # 门控：免费版 3 部/天
+    gate = billing.check_access("free", "download")
+    if not gate["allowed"]:
+        print(f"❌ {gate['reason']}")
+        print(f"   升级入口：{gate.get('upgrade_url', 'https://afdian.com/@Zeon7744')}")
+        sys.exit(1)
     run()
