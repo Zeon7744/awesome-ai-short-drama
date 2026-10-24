@@ -13,5 +13,5 @@ python demo_shortdrama.py
 
 ## 3. 收款与门控
 - 免费版 3 部/天；Pro ¥49/月；单次 ¥9.9/部；企业 ¥499/月
-- 爱发电：https://afdian.com/@Zeon7744
+- 面包多 Pay：https://mbd.com/@Zeon7744
 - 冒烟：`bash smoke_test.sh`
