@@ -21,7 +21,7 @@ from tools.format_checker import validate_directory  # noqa: E402
 
 # 变现钩子参数（与 README "免费→Pro→企业"对齐）
 PRO_PRICE_CNY = 49  # 与 README 对齐：Pro ¥49/月
-PAYMENT_CHANNELS = ["爱发电 afdian.com/@Zeon7744", "支付宝个人码"]
+PAYMENT_CHANNELS = ["面包多 Pay mbd.com/@Zeon7744", "支付宝个人码"]
 
 try:
     import billing
@@ -92,6 +92,6 @@ if __name__ == "__main__":
     gate = billing.check_access("free", "download")
     if not gate["allowed"]:
         print(f"❌ {gate['reason']}")
-        print(f"   升级入口：{gate.get('upgrade_url', 'https://afdian.com/@Zeon7744')}")
+        print(f"   升级入口：{gate.get('upgrade_url', 'https://mbd.pub/@Zeon7744
         sys.exit(1)
     run()
